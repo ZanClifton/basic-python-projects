@@ -37,6 +37,7 @@ $ cd basic-python-projects
 
 You will need an IDE to run these projects locally. I recommend VS Code or PyCharm.
 
+#
 <div align=right>
   <h6>README.md created with thanks to:
   <br>ReadMe Typing SVG: <a href="https://git.io/typing-svg">DenverCoder1</a>

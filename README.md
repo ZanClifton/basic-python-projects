@@ -17,6 +17,7 @@ All these projects are hosted on Replit where you can try them out online withou
 9. [Caesar Cipher](https://replit.com/@ZanClifton/caesar-cipher?v=1)
 10. [Map and Filter Functions](https://replit.com/@ZanClifton/map-and-filter-functions?v=1)
 11. [Parking Vehicle Detector](https://replit.com/@ZanClifton/parking-vehicle-detector?v=1) (Pair Programming with [Gareth Dawson](https://github.com/gwdawson))
+12. [Blind Auction](https://replit.com/@ZanClifton/blind-auction?v=1)
 
 ## Creating A Local Copy
 
@@ -35,7 +36,19 @@ $ cd basic-python-projects
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
 
-You will need an IDE to run these projects locally. I recommend VS Code or PyCharm.
+You ideally need an IDE to run these projects locally. I recommend VS Code or PyCharm. However, they will run in the terminal as follows:
+
+Navigate into the folder of the project you wish to run, for example:
+
+```
+$ cd 01-band-name-generator
+```
+
+Run the script in the terminal:
+
+```
+$ python3 main.py
+```
 
 <div align=right>
   <h6>README.md created with thanks to:

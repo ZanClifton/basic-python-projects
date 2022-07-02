@@ -50,6 +50,7 @@ Run the script in the terminal:
 $ python3 main.py
 ```
 
+#
 <div align=right>
   <h6>README.md created with thanks to:
   <br>ReadMe Typing SVG: <a href="https://git.io/typing-svg">DenverCoder1</a>

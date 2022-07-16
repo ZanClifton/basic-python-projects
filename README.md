@@ -18,6 +18,7 @@ All these projects are hosted on Replit where you can try them out online withou
 10. [Map and Filter Functions](https://replit.com/@ZanClifton/map-and-filter-functions?v=1)
 11. [Parking Vehicle Detector](https://replit.com/@ZanClifton/parking-vehicle-detector?v=1) (Pair Programming with [Gareth Dawson](https://github.com/gwdawson))
 12. [Blind Auction](https://replit.com/@ZanClifton/blind-auction?v=1)
+13. [Days In The Month](https://replit.com/@ZanClifton/days-in-month?v=1)
 
 ## Creating A Local Copy
 

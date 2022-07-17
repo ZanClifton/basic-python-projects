@@ -2,8 +2,73 @@ import os
 import random
 from art import logo
 
+
 def clearConsole(): return os.system(
     'cls' if os.name in ('nt', 'dos') else 'clear')
+
+
+def blackjack():
+    player_hand = []
+    dealer_hand = []
+    dealer_card_total = 0
+
+    clearConsole()
+    print(logo)
+
+    deal_card(player_hand)
+    deal_card(player_hand)
+    deal_card(dealer_hand)
+    deal_card(dealer_hand)
+
+    dealer_card_total = len(dealer_hand)
+
+    print(
+        f"The dealer has {dealer_card_total} cards, and the first is [{dealer_hand[0]}]")
+
+    player_action = "y"
+
+    player_score = calculate_score(player_hand)
+
+    while player_action == "y":
+        print(f"Your cards are {player_hand}.")
+        print(f"Your hand totals {player_score}.")
+
+        player_action = input("Would you like another card? y/n ")
+
+        if player_action == "y":
+            deal_card(player_hand)
+        else:
+            player_action = "n"
+
+        player_score = calculate_score(player_hand)
+
+        if player_score > 21:
+            player_action = "n"
+
+    print(f"You stand. \nYou hold {player_hand} worth {player_score}.")
+
+    dealer_score = calculate_score(dealer_hand)
+
+    while dealer_score < 17 and not player_score > 21:
+        deal_card(dealer_hand)
+        dealer_score = calculate_score(dealer_hand)
+        print("The dealer draws a card.")
+
+    print(f"The dealer holds {dealer_hand} worth {dealer_score}.")
+
+    result = compare_scores(player_score, dealer_score)
+
+    print(result)
+
+    should_continue = input("Would you like to play again? y/n ")
+
+    if should_continue == "y":
+        blackjack()
+    else:
+        clearConsole()
+        print(logo)
+        print("Thank you for playing!")
+
 
 def calculate_score(hand):
     length = len(hand)
@@ -19,6 +84,7 @@ def calculate_score(hand):
         hand[index] = 1
         score -= 10
     return score
+
 
 def compare_scores(player, dealer):
     if player == dealer:
@@ -36,78 +102,12 @@ def compare_scores(player, dealer):
     else:
         return "Dealer wins!"
 
+
 def deal_card(hand):
     index = random.randint(0, 12)
     hand.append(cards[index])
 
-def blackjack():
-    player_hand = []
-    dealer_hand = []
-    player_total = 0
-    dealer_total = 0
-    again = "n"
-    length = 0
-    should_continue = "y"
-    again = "n"
-
-    dealer_score = 0
-
-    print(logo)
-
-    deal_card(player_hand)
-    deal_card(player_hand)
-    deal_card(dealer_hand)
-    deal_card(dealer_hand)
-
-    while should_continue == "y":
-        draw = "n"
-
-        player_total = calculate_score(player_hand)
-        dealer_total = calculate_score(dealer_hand)
-        dealer_score = dealer_total
-
-        if player_total == 0:
-            player_score = 21
-        else:
-            player_score = player_total
-
-        print(f"You have {player_hand} in your hand totalling {player_score}.")
-
-        if player_total >= 21 or player_total == 0 or dealer_total >= 21 or dealer_total == 0:
-            should_continue = "n"
-        else:
-            draw = input(f"Hit? y/n ")
-            if draw == "y":
-                deal_card(player_hand)
-            else:
-                should_continue = "n"
-
-                while dealer_total < 17 and dealer_total != 0:
-                    deal_card(dealer_hand)
-                    dealer_total = calculate_score(dealer_hand)
-
-                if dealer_total == 0:
-                    dealer_score = 21
-                else:
-                    dealer_score = dealer_total
-
-    length = len(dealer_hand)
-
-    print(f"The dealer has {length} cards totalling {dealer_score}!")
-
-    result = compare_scores(player_total, dealer_total)
-
-    print(f"\nRESULT: {result}")
-    again = input("Would you like another game? y/n ")
-
-    if again == "y":
-        clearConsole()
-        blackjack()
-    else:
-        print("\nThank you for playing!")
-
 
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
-
 
 blackjack()

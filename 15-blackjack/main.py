@@ -8,7 +8,7 @@ def clearConsole(): return os.system(
 
 
 def blackjack():
-    player_hand = [10, 11]
+    player_hand = []
     dealer_hand = []
     dealer_card_total = 0
 
@@ -29,12 +29,12 @@ def blackjack():
 
     player_score = calculate_score(player_hand)
 
-    if player_score == 0:
-        player_total = 21
-    else:
-        player_total = player_score
-
     while player_action == "y":
+        if player_score == 0:
+            player_total = 21
+        else:
+            player_total = player_score
+
         print(f"Your cards are {player_hand}.")
         print(f"Your hand totals {player_total}.")
 
@@ -44,33 +44,32 @@ def blackjack():
             deal_card(player_hand)
         else:
             player_action = "n"
-
         player_score = calculate_score(player_hand)
 
         if player_score > 21:
             player_action = "n"
 
-    print(f"You stand. \nYou hold {player_hand} worth {player_total}.")
+    print(f"\nYou hold {player_hand} worth {player_total}.\n")
 
     dealer_score = calculate_score(dealer_hand)
-
-    if dealer_score == 0:
-        dealer_total = 21
-    else:
-        dealer_total = dealer_score
 
     while dealer_score < 17 and not player_score > 21:
         deal_card(dealer_hand)
         dealer_score = calculate_score(dealer_hand)
         print("The dealer draws a card.")
 
-    print(f"The dealer holds {dealer_hand} worth {dealer_total}.")
+    if dealer_score == 0:
+        dealer_total = 21
+    else:
+        dealer_total = dealer_score
+
+    print(f"The dealer holds {dealer_hand} worth {dealer_total}.\n")
 
     result = compare_scores(player_score, dealer_score)
 
     print(result)
 
-    should_continue = input("Would you like to play again? y/n ")
+    should_continue = input("\nWould you like to play again? y/n ")
 
     if should_continue == "y":
         blackjack()

@@ -2,7 +2,7 @@
 
 A console based game of blackjack.
 
-![Days In The Month](https://github.com/ZanClifton/basic-python-projects/blob/main/images/blackjack.png)
+![Blackjack](https://github.com/ZanClifton/basic-python-projects/blob/main/images/blackjack.png)
 
 Try it on [Replit](https://replit.com/@ZanClifton/blackjack?v=1) directly in your browser, without installing an IDE.
 

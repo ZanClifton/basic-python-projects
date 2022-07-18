@@ -8,7 +8,7 @@ def clearConsole(): return os.system(
 
 
 def blackjack():
-    player_hand = []
+    player_hand = [10, 11]
     dealer_hand = []
     dealer_card_total = 0
 
@@ -29,9 +29,14 @@ def blackjack():
 
     player_score = calculate_score(player_hand)
 
+    if player_score == 0:
+        player_total = 21
+    else:
+        player_total = player_score
+
     while player_action == "y":
         print(f"Your cards are {player_hand}.")
-        print(f"Your hand totals {player_score}.")
+        print(f"Your hand totals {player_total}.")
 
         player_action = input("Would you like another card? y/n ")
 
@@ -45,16 +50,21 @@ def blackjack():
         if player_score > 21:
             player_action = "n"
 
-    print(f"You stand. \nYou hold {player_hand} worth {player_score}.")
+    print(f"You stand. \nYou hold {player_hand} worth {player_total}.")
 
     dealer_score = calculate_score(dealer_hand)
+
+    if dealer_score == 0:
+        dealer_total = 21
+    else:
+        dealer_total = dealer_score
 
     while dealer_score < 17 and not player_score > 21:
         deal_card(dealer_hand)
         dealer_score = calculate_score(dealer_hand)
         print("The dealer draws a card.")
 
-    print(f"The dealer holds {dealer_hand} worth {dealer_score}.")
+    print(f"The dealer holds {dealer_hand} worth {dealer_total}.")
 
     result = compare_scores(player_score, dealer_score)
 

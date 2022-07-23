@@ -22,6 +22,7 @@ All these projects are hosted on Replit where you can try them out online withou
 14. [Calculator](https://replit.com/@ZanClifton/calculator?v=1)
 15. [Blackjack](https://replit.com/@ZanClifton/blackjack?v=1)
 16. [Not-Numberwang](https://replit.com/@ZanClifton/not-numberwang?v=1)
+17. [Higher/Lower](https://replit.com/@ZanClifton/higher-lower?v=1)
 
 ## Creating A Local Copy
 
@@ -55,6 +56,7 @@ $ python3 main.py
 ```
 
 #
+
 <div align=right>
   <h6>README.md created with thanks to:
   <br>ReadMe Typing SVG: <a href="https://git.io/typing-svg">DenverCoder1</a>

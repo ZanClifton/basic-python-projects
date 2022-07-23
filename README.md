@@ -21,6 +21,7 @@ All these projects are hosted on Replit where you can try them out online withou
 13. [Days In The Month](https://replit.com/@ZanClifton/days-in-month?v=1)
 14. [Calculator](https://replit.com/@ZanClifton/calculator?v=1)
 15. [Blackjack](https://replit.com/@ZanClifton/blackjack?v=1)
+16. [Not-Numberwang](https://replit.com/@ZanClifton/not-numberwang?v=1)
 
 ## Creating A Local Copy
 

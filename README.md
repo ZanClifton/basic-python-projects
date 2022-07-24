@@ -23,6 +23,7 @@ All these projects are hosted on Replit where you can try them out online withou
 15. [Blackjack](https://replit.com/@ZanClifton/blackjack?v=1)
 16. [Not-Numberwang](https://replit.com/@ZanClifton/not-numberwang?v=1)
 17. [Higher/Lower](https://replit.com/@ZanClifton/higher-lower?v=1)
+18. [Coffee Machine](https://replit.com/@ZanClifton/coffee-machine?v=1)
 
 ## Creating A Local Copy
 

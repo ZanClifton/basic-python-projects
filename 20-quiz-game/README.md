@@ -1,12 +1,10 @@
-# Coffee Machine
+# Quiz Game
 
-This app simulates a coffee machine making coffee. Sadly, it does not actually dispense any.
+This is a game of True or False.
 
-There are two secret commands for the coffee machine; "Report" and "Off". Please feel free to give them a go.
+<!-- ![True or False](https://github.com/ZanClifton/basic-python-projects/blob/main/images/quiz-game.png)
 
-![Coffee Machine](https://github.com/ZanClifton/basic-python-projects/blob/main/images/coffee-machine.png)
-
-Try it on [Replit](https://replit.com/@ZanClifton/coffee-machine?v=1) directly in your browser, without installing an IDE.
+Try it on [Replit](https://replit.com/@ZanClifton/quiz-game?v=1) directly in your browser, without installing an IDE. -->
 
 Instructions for creating a local copy are available in the main [README.md file](https://github.com/ZanClifton/basic-python-projects/blob/main/README.md).
 

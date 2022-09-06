@@ -26,6 +26,7 @@ All these projects are hosted on Replit where you can try them out online withou
 18. [Coffee Machine](https://replit.com/@ZanClifton/coffee-machine?v=1)
 19. [OOP Coffee Machine](https://replit.com/@ZanClifton/oop-coffee-machine?v=1)
 20. [Quiz Game](https://replit.com/@ZanClifton/quiz-game?v=1)
+21. [Damien Hirst Style Dot Painting](https://replit.com/@ZanClifton/hirst-style-dot-painting?v=1)
 
 ## Creating A Local Copy
 

@@ -1,5 +1,7 @@
 # Etch-A-Sketch
 
+<img src="https://github.com/ZanClifton/basic-python-projects/blob/main/images/etch-a-sketch.png" width=250px align=right alt="Etch-A-Sketch"/>
+
 This is an Etch-A-Sketch built with Python Turtle.
 
 ![Etch-A-Sketch](https://github.com/ZanClifton/basic-python-projects/blob/main/images/etch-a-sketch.png)

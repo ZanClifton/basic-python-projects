@@ -1,10 +1,10 @@
 # Hirst Style Dot Painting
 
+<img src="https://github.com/ZanClifton/basic-python-projects/blob/main/images/hirst-style-dot-painting.png" width=250px align=right alt="Hirst Style Dot Painting with 10 rows of 10 dots in various colours"/>
+
 Create your own multi-million dollar artwork with this app that allows you to create a dot painting from one of Damien Hirst's own colour palettes!
 
 You can select the number of dots you'd like in each row, and how many rows you want to display, and bingo! You're an artist!
-
-![Hirst Style Dot Painting with 10 rows of 10 dots in various colours](https://github.com/ZanClifton/basic-python-projects/blob/main/images/quiz-game.png)
 
 Try it on [Replit](https://replit.com/@ZanClifton/hirst-style-dot-painting?v=1) directly in your browser, without installing an IDE.
 

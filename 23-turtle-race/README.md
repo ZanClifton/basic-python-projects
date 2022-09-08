@@ -1,8 +1,8 @@
 # Turtle Race
 
-Bet on a turtle to be the first to reach the finish line!
+<img src="https://github.com/ZanClifton/basic-python-projects/blob/main/images/turtle-race.png" width=250px align=right alt="Turtle Race"/>
 
-![Turtle Race](https://github.com/ZanClifton/basic-python-projects/blob/main/images/turtle-race.png)
+Bet on a turtle to be the first to reach the finish line!
 
 Try it on [Replit](https://replit.com/@ZanClifton/turtle-race?v=1) directly in your browser, without installing an IDE.
 

@@ -64,7 +64,7 @@ $ python3 main.py
 
 ### Python 3.8
 
-These projects were created using Python 3.8. Please ensure you have updated Python to the latest available version.
+These projects were created using Python 3.8. Please make sure you've updated Python to the latest available version.
 
 #
 

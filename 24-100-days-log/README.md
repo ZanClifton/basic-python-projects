@@ -2,7 +2,7 @@
 
 <a href="https://github.com/ZanClifton/100-days-log"><img src="https://github.com/ZanClifton/basic-python-projects/blob/main/images/100-days-log.png" width=250px align=right alt="100 Days Log"/></a>
 
-This is a 100 Days Log built with Python Turtle.
+This is a 100 Days Log built with Python and the inbuilt SQLite module.
 
 Try it on [Replit](https://replit.com/@ZanClifton/100-days-log?v=1) directly in your browser, without installing an IDE.
 

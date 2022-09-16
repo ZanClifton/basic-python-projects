@@ -29,6 +29,8 @@ All these projects are hosted on Replit where you can try them out online withou
 21. [Damien Hirst Style Dot Painting](https://replit.com/@ZanClifton/hirst-style-dot-painting?v=1)
 22. [Etch-A-Sketch](https://replit.com/@ZanClifton/etch-a-sketch?v=1)
 23. [Turtle Race](https://replit.com/@ZanClifton/turtle-race?v=1)
+24. [100 Days Log](https://replit.com/@ZanClifton/100-days-log?v=1)
+25. [Movie Watch List](https://replit.com/@ZanClifton/movie-watch-list?v=1)
 
 ## Creating A Local Copy
 
@@ -60,6 +62,7 @@ Run the script in the terminal:
 ```
 $ python3 main.py
 ```
+
 #
 
 ### Python 3.8

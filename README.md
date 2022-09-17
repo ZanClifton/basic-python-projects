@@ -4,7 +4,7 @@
 
 ## Replit
 
-All these projects are hosted on Replit where you can try them out online without needing to clone the repo or install an IDE.
+All these projects are hosted on Replit where you can try them out online without needing to clone the repo or install an IDE. Generally, they increase in complexity, but their running order is more chronological than anything else, and periodically I'm inspired to challenge myself with something tougher.
 
 1. [Band Name Generator](https://replit.com/@ZanClifton/band-name-generator?v=1)
 2. [Tip Calculator](https://replit.com/@ZanClifton/tip-calculator?v=1)
@@ -31,6 +31,7 @@ All these projects are hosted on Replit where you can try them out online withou
 23. [Turtle Race](https://replit.com/@ZanClifton/turtle-race?v=1)
 24. [100 Days Log](https://replit.com/@ZanClifton/100-days-log?v=1)
 25. [Movie Watch List](https://replit.com/@ZanClifton/movie-watch-list?v=1)
+26. [Multi-User Movie Watch List](https://replit.com/@ZanClifton/multi-user-movie-watch-list?v=1)
 
 ## Creating A Local Copy
 

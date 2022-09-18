@@ -4,7 +4,7 @@
 
 ## Replit
 
-All these projects are hosted on Replit where you can try them out online without needing to clone the repo or install an IDE. Generally, they increase in complexity, but their running order is more chronological than anything else, and periodically I'm inspired to challenge myself with something tougher.
+All these projects are hosted on Replit where you can try them out online without needing to clone the repo or install an IDE. Generally, they increase in complexity, but their running order is chronological from when they were created.
 
 1. [Band Name Generator](https://replit.com/@ZanClifton/band-name-generator?v=1)
 2. [Tip Calculator](https://replit.com/@ZanClifton/tip-calculator?v=1)

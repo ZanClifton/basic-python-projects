@@ -24,15 +24,16 @@ INSERT_USER = "INSERT INTO users (username) VALUES (?);"
 
 DELETE_MOVIE = "DELETE FROM movies WHERE title = ?;"
 
-SELECT_ALL_MOVIES = "SELECT * FROM movies ORDER BY release_timestamp;"
+SELECT_ALL_MOVIES = "SELECT * FROM movies ORDER BY id;"
 
-SELECT_UPCOMING_MOVIES = "SELECT * FROM movies WHERE release_timestamp > ? ORDER BY release_timestamp;"
+SELECT_UPCOMING_MOVIES = "SELECT * FROM movies WHERE release_timestamp > ? ORDER BY id;"
 
 SELECT_WATCHED_MOVIES = """SELECT movies.*
 FROM movies
 JOIN watched ON movies.id = watched.movies_id
 JOIN users ON users.username = watched.users_username
-WHERE users.username = ?;"""
+WHERE users.username = ?
+ORDER BY id;"""
 
 INSERT_WATCHED_MOVIE = "INSERT INTO watched (users_username, movies_id) VALUES (?, ?);"
 

@@ -1,6 +1,6 @@
 # Multi-User Movie Watch List
 
-<img src="https://github.com/ZanClifton/basic-python-projects/blob/main/images/movie-watch-list.png" width=250px align=right alt="Movie Watch List"/>
+<img src="https://github.com/ZanClifton/basic-python-projects/blob/main/images/multi-user-movie-watch-list.png" width=250px align=right alt="Movie Watch List"/>
 
 This is a Movie Watch List for multiple users built with Python and SQLite, and developed from the [Movie Watch List](https://github.com/ZanClifton/basic-python-projects/tree/main/25-movie-watch-list).
 

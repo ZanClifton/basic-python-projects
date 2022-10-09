@@ -7,6 +7,7 @@ import database
 
 
 DATABASE_PROMPT = "Enter the DATABASE_URI value or leave empty to load from .env file: "
+
 MENU_PROMPT = """
 -- Menu --
 
@@ -18,6 +19,7 @@ MENU_PROMPT = """
 6) Exit
 
 Enter your choice: """
+
 NEW_OPTION_PROMPT = "Enter new option text (or leave empty to stop adding options): "
 
 

@@ -1,18 +1,10 @@
-# Imports
-
 from typing import List, Tuple
 from psycopg2.extras import execute_values
-
-# Types
 
 Poll = Tuple[int, str, str]
 Vote = Tuple[str, int]
 PollWithOption = Tuple[int, str, str, int, str, int]
 PollResults = Tuple[int, str, int, float]
-
-# SQL Queries
-
-# Create Tables
 
 CREATE_POLLS = """CREATE TABLE IF NOT EXISTS polls
 (id SERIAL PRIMARY KEY, title TEXT, owner_username TEXT);"""
@@ -22,8 +14,6 @@ CREATE_OPTIONS = """CREATE TABLE IF NOT EXISTS options
 
 CREATE_VOTES = """CREATE TABLE IF NOT EXISTS votes
 (username TEXT, option_id INTEGER, FOREIGN KEY(option_id) REFERENCES options (id));"""
-
-# Fetch
 
 SELECT_ALL_POLLS = "SELECT * FROM polls;"
 
@@ -88,16 +78,12 @@ GROUP BY options.id
 ORDER BY poll_id, vote_count DESC;
 """
 
-# Insert
-
 INSERT_OPTION = "INSERT INTO options (option_text, poll_id) VALUES %s;"
 
 INSERT_POLL_RETURNING_ID = "INSERT INTO polls (title, owner_username) VALUES (%s, %s) RETURNING id;"
 
 INSERT_VOTE = "INSERT INTO votes (username, option_id) VALUES (%s, %s);"
 
-
-# Functions
 
 def create_tables(connection):
     with connection:

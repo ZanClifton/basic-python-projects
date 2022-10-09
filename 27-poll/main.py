@@ -1,5 +1,6 @@
 import os
 import psycopg2
+from typing import List
 from psycopg2.errors import DivisionByZero
 from dotenv import load_dotenv
 import database
@@ -49,7 +50,7 @@ def prompt_vote_poll(connection):
     database.add_poll_vote(connection, username, option_id)
 
 
-def _print_poll_options(poll_with_options):
+def _print_poll_options(poll_with_options: List[database.PollWithOption]):
     for option in poll_with_options:
         print(f"{option[3]}: {option[4]}")
 

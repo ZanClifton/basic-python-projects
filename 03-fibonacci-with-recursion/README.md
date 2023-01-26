@@ -12,4 +12,4 @@ Instructions for creating a local copy are available in the main [README.md file
 
 #
 
-Created as part of [100 Days of Code](https://github.com/ZanClifton/100-days-of-code/blob/master/log.md).
+Created as part of [100 Days of Code](https://github.com/ZanClifton/100-days-of-code/blob/main/challenges/challenge-01/README.md).
